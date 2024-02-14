@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+
+.topbar{
+  height: 125px;
+  //background-color: green;
+  width: 100%;
+}
+
+.topInfoPanel{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
+  width: 100%;
+
+  .logo{
+    cursor: pointer;
+    margin-left: 80px;
+    color: #f73232;
+    font-family: 'Allerta Stencil', cursive;
+    font-size: 42px;
+  }
+
+  .logoTeg{
+    font-family: Inter, cursive;
+    color: black;
+    font-size: 12px;
+  }
+
+  .rightInfo{
+    margin-right: 80px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+    .mapRoute{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+      color: #6D6D6D;
+      white-space: nowrap;
+    }
+    .photo{
+      display: flex;
+      color: #f73232;
+      height: 42px;
+      width: 42px;
+      border-radius: 50%;
+      border: 1px solid #f73232;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.bottomInfoPanel{
+  height: 50px;
+  width: 100%;
+
+
+  .currentRouteInfo{
+    cursor: default;
+    display: inline-block;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 15px 0;
+    border-bottom: 2px solid #F7C41C;
+    margin-left: 80px;
+    float: left;
+  }
+}
+
+.catImg{
+  z-index: -1;
+  height: 282px;
+  position: relative;
+  transform: translate(80px, 100px);
+  //top: 0;
+  //left: 0;
+}
